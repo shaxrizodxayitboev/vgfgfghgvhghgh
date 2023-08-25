@@ -1,0 +1,533 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin-left: 400px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav .active {
+  color: #f35f2f;
+}
+.omo15 {
+  display: flex;
+  margin-left: 30px;
+}
+.main-btn {
+  width: 152px;
+  height: 60px;
+  border-radius: 20px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  background-color: #a259ff;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.main-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+}
+.p_1 {
+  color: white;
+  margin-top: -50px;
+}
+p {
+  color: white;
+}
+.mamarayim {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 30px;
+  align-items: center;
+}
+.gulchapchap {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.gulchapchapp {
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btnn {
+  width: 206px;
+  height: 72px;
+  background: #a259ff;
+
+  padding: 0px 50px 0px 50px;
+  border-radius: 20px;
+  gap: 12px;
+}
+.btnn a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 13px;
+}
+.btnn img {
+  margin-left: 1px;
+}
+.blockk {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+}
+.ppp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.h1_2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 6rem;
+}
+.df {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.section_1 {
+  text-align: left;
+  margin: 3rem;
+  margin-top: 20px;
+}
+.p_2 {
+  margin-left: 6rem;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.shaxrizod {
+  display: flex;
+  justify-content: start;
+}
+.Behruz {
+  margin-left: 130px;
+}
+.Nodir {
+  margin-left: 615px;
+  margin-top: 40px;
+}
+.main-btnnnn {
+  width: 150px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  background-color: black;
+  border-radius: 10px;
+}
+.p_115 {
+  font-size: 50px;
+  margin: 0px 0;
+}
+.main-btnnnn img {
+  margin: 0px 0;
+}
+.main-btnnnn a {
+  font-size: 15px;
+  margin: 0px 0;
+  color: white;
+  text-decoration: none;
+}
+.Gozal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.acer {
+  width: 240px;
+  height: 238px;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+  background: #3b3b3b;
+}
+.mishka {
+  display: flex;
+}
+.klaviatura {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: -15px;
+}
+.p3030 {
+  color: white;
+  margin-left: 55px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.p2020 {
+  margin-left: 25px;
+  margin-top: -10px;
+  color: #7e7e7e;
+}
+.kkkk {
+  font-size: 50px;
+  margin: 0px 0;
+  margin-top: 130px;
+  margin-left: 130px;
+}
+
+.Abu {
+  width: 240px;
+  height: 316px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+.rrr {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.Sherzod {
+  margin: 0px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-left: 30px;
+}
+.Asadbek {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+.Shohrux {
+  display: flex;
+  margin-left: 130px;
+  margin-top: 130px;
+}
+.Discover {
+  font-size: 50px;
+  margin: 0px 0;
+  width: 763px;
+  height: 46px;
+  margin-bottom: 20px;
+}
+.main-nmn {
+  width: 150px;
+  height: 50px;
+  border: 2px solid blueviolet;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-left: 210px;
+}
+.main-nmn a {
+  font-size: 15px;
+  margin: 0px 0;
+  color: white;
+  text-decoration: none;
+}
+.kub {
+  width: 330px;
+  height: 469px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+}
+.jjj {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+.uuu {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.uch {
+  display: flex;
+  gap: 190px;
+  margin-left: 35px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+.kichik {
+  color: grey;
+}
+.tort {
+  display: flex;
+  gap: 125px;
+  margin-left: 32px;
+  margin-top: -10px;
+}
+.Umid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.qoziqorin2 {
+  width: 100%;
+  height: 640px;
+  margin-top: 100px;
+}
+
+.llll {
+  width: 100%;
+  height: 640px;
+  margin-top: -700px;
+}
+.os {
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 90px;
+  margin-left: 120px;
+}
+.ok {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: -30px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+.tor1 {
+  width: 330px;
+  height: 439px;
+  border-radius: 20px;
+  padding: 10px 30px 30px 30px;
+  gap: 20px;
+  background-color: #3b3b3b;
+}
+.tor1h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 45px;
+}
+.tor1p {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+.muham {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+.mars {
+  width: 1110px;
+  height: 430px;
+  border-radius: 20px;
+  padding: 60px;
+  gap: 80px;
+  background-color: #3b3b3b;
+  display: flex;
+  margin-left: 120px;
+  margin-top: 110px;
+}
+.emg {
+  margin-left: 30px;
+}
+.marsh1 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 45.6px;
+}
+.marsp {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  margin-top: -20px;
+}
+.marsbut2 {
+  width: 160px;
+  height: 60px;
+  border-radius: 20px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  background-color: #a259ff;
+  margin-left: -55px;
+}
+.marsbut2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marsbut1 {
+  width: 230px;
+  height: 60px;
+  border-radius: 20px;
+}
+.marsbut1 a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+}
+.tagi {
+  width: 100%;
+  height: 300px;
+  background-color: #3b3b3b;
+  margin-top: 100px;
+}
+.logos {
+  width: 243.41px;
+  height:  32px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.nft{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 80px;
+  color: #ccc;
+  
+}
+.join{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 80px;
+  color: #ccc;
+}
+.icon{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 75px;
+  gap: 10px;
+}
+.tagi{
+  display: flex;
+}
+.explore{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+.mar{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 220px;
+  color: #ccc;
+}
+.ran{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 220px;
+  color: #ccc;
+}
+.con{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 220px;
+  color: #ccc;
+}
+.joinn{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+.get{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 220px;
+  color: #ccc;
+}
+.tagibut2{
+  width: 160px;
+  height: 60px;
+  border-radius: 20px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  background-color: #a259ff;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+.tagibut1{
+  width: 280px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 0px 0;
+  margin-top: 20px;
+  margin-left: 215px;
+}
+.tagibut1 a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -60px;
+}
+.tagibut2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hr{
+  margin-top: -60px;
+  width: 1220px;
+  color: #ccc;
+}
+
+.hrp{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: #ccc;
+}
